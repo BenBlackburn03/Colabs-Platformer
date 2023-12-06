@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0b0ec91914cd8134db149db86276083b
+guid: 297d600faa9ae4a4ea1bf260042ba23b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1600
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KevinIDLEnew_0
+      name: KEVINANIMATIONS_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1600
-        height: 1600
+        x: 206
+        y: 69
+        width: 506
+        height: 992
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47d1cf6316d618a49abafed2803cd19c
-      internalID: 2136773824
+      spriteID: 3baf882f345e78d458ec8be3527cee15
+      internalID: 1994065896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KevinIDLEnew_1
+      name: KEVINANIMATIONS_1
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 1600
-        height: 1600
+        x: 1405
+        y: 69
+        width: 509
+        height: 978
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf1cd7e5c91492f408ac78c2e1b63de8
-      internalID: 2021701637
+      spriteID: f60f5b2f6da08ec4dabe40893d1b6926
+      internalID: 1124608383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KEVINANIMATIONS_2
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 69
+        width: 608
+        height: 978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16aab05cc429dc4d8d989740a1f8d22
+      internalID: -936191511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KEVINANIMATIONS_3
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 69
+        width: 460
+        height: 978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a025432a6c8f61d4a8a54440c02a8dd2
+      internalID: -360765462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KEVINANIMATIONS_4
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 121
+        width: 495
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be0d9acd1c4914fa871a421b48f83d
+      internalID: -1469070426
       vertices: []
       indices: 
       edges: []
@@ -162,8 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      KevinIDLEnew_0: 2136773824
-      KevinIDLEnew_1: 2021701637
+      KEVINANIMATIONS_0: 1994065896
+      KEVINANIMATIONS_1: 1124608383
+      KEVINANIMATIONS_2: -936191511
+      KEVINANIMATIONS_3: -360765462
+      KEVINANIMATIONS_4: -1469070426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
