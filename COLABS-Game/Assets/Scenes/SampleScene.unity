@@ -17373,11 +17373,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6474358528915528738}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6474358528915528738}
     - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
@@ -17389,11 +17397,27 @@ PrefabInstance:
       value: OnLanding
       objectReference: {fileID: 0}
     - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnCrouching
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlayerMovement, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6888432539691539342, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}

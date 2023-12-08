@@ -45,6 +45,12 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    public void OnCrouching(bool isCrouching)
+    {
+        animator.SetBool("IsCrouching", isCrouching);
+    }
+
+
     void FixedUpdate()
     {
         // Move our character
