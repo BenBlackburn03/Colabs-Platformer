@@ -6861,7 +6861,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  ropeProgressionSpeed: 1
+  ropeProgressionSpeed: 6.1
   isGrappling: 1
 --- !u!1 &900275696
 GameObject:
@@ -17302,6 +17302,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -1.85
       objectReference: {fileID: 0}
+    - target: {fileID: 870891678173526439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
     - target: {fileID: 1928727866754714160, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -17311,9 +17315,25 @@ PrefabInstance:
       value: 4.32
       objectReference: {fileID: 0}
     - target: {fileID: 3296016170897115187, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296016170897115187, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_SortingOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 3296016170897115187, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296016170897115187, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296016170897115187, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 81a484112cb3cae498d4b8d1619278c8, type: 2}
     - target: {fileID: 3426424663938842734, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_Distance
       value: 7.471946
@@ -17350,6 +17370,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5899476344977568341, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
     - target: {fileID: 5899476344977568341, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 8.875416
@@ -17413,6 +17437,10 @@ PrefabInstance:
     - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_JumpForce
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_CrouchSpeed
+      value: 0.463
       objectReference: {fileID: 0}
     - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size
