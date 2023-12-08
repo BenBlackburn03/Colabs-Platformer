@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 811701432814502407}
   - component: {fileID: 3296016170897115187}
-  - component: {fileID: 8743546039152592884}
+  - component: {fileID: 28319418833719186}
   m_Layer: 6
   m_Name: Rope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &811701432814502407
 Transform:
@@ -54,7 +54,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 81a484112cb3cae498d4b8d1619278c8, type: 2}
+  - {fileID: 2100000, guid: 28638862ea1084726a3511cd325fc53d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -74,7 +74,7 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
@@ -129,7 +129,7 @@ LineRenderer:
     numCornerVertices: 1
     numCapVertices: 10
     alignment: 0
-    textureMode: 0
+    textureMode: 4
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
@@ -137,7 +137,7 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &8743546039152592884
+--- !u!114 &28319418833719186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c18fc8913bc3f488a9194c5e8f36e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grapplingGun: {fileID: 8110142204808779384}
+  grapplingGun: {fileID: 8774011160284159622}
   m_lineRenderer: {fileID: 3296016170897115187}
   percision: 40
   straightenLineSpeed: 5
@@ -159,44 +159,53 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 1
-      inSlope: -0.28367123
-      outSlope: -0.28367123
+      inSlope: -4.717223
+      outSlope: -4.717223
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.23097557
-      value: 0.9344789
-      inSlope: -0.013680235
-      outSlope: -0.013680235
+      time: 0.15684286
+      value: 0.26013726
+      inSlope: -1.7737354
+      outSlope: -1.7737354
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.23161364
+    - serializedVersion: 3
+      time: 0.33663473
+      value: 0.34840858
+      inSlope: 0.44855165
+      outSlope: 0.44855165
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.48660713
-      value: 1
-      inSlope: 0.26479524
-      outSlope: 0.26479524
-      tangentMode: 34
+      time: 0.74259114
+      value: 0.5132835
+      inSlope: -5.3139944
+      outSlope: -5.3139944
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
+      outWeight: 0.5702737
     - serializedVersion: 3
-      time: 0.74129814
-      value: 1.0696019
-      inSlope: 0.0021184385
-      outSlope: 0.0021184385
+      time: 0.7944358
+      value: 0.113889396
+      inSlope: -4.1288514
+      outSlope: -4.1288514
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 1
-      inSlope: -0.26904288
-      outSlope: -0.26904288
+      value: 0
+      inSlope: -0.5540332
+      outSlope: -0.5540332
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -204,24 +213,24 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  StartWaveSize: 2
+  StartWaveSize: 3.48
   ropeProgressionCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
-      inSlope: 0.12386987
-      outSlope: 0.12386987
+      value: 0
+      inSlope: 1
+      outSlope: 1
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.97729874
-      value: 1.1210579
-      inSlope: 0.12386987
-      outSlope: 0.12386987
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -229,7 +238,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  ropeProgressionSpeed: 16.6
+  ropeProgressionSpeed: 6.1
   isGrappling: 1
 --- !u!1 &3429026629093865457
 GameObject:
@@ -242,13 +251,13 @@ GameObject:
   - component: {fileID: 821404300331756319}
   - component: {fileID: 5020777043858732888}
   - component: {fileID: 4021930509713825248}
-  - component: {fileID: 8110142204808779384}
+  - component: {fileID: 8774011160284159622}
   m_Layer: 6
   m_Name: GrapplingGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &821404300331756319
 Transform:
@@ -258,7 +267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3429026629093865457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.85, y: 0, z: 0}
   m_LocalScale: {x: 0.85, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -306,7 +315,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_Sprite: {fileID: 7482667652216324306, guid: d6f930be25f4ff24dbd24295a4b838e8, type: 3}
   m_Color: {r: 0, g: 1, b: 0.095299244, a: 1}
   m_FlipX: 0
@@ -363,7 +372,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8110142204808779384
+--- !u!114 &8774011160284159622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -375,10 +384,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9a4c617dd6e46458db321d25f1bbed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grappleRope: {fileID: 8743546039152592884}
+  grappleRope: {fileID: 28319418833719186}
   grappleToAll: 0
-  grappableLayerNumber: 7
-  m_camera: {fileID: 0}
+  grappableLayerNumber: 9
+  m_camera: {fileID: 4244181876436092114}
   gunHolder: {fileID: 6243402124348937937}
   gunPivot: {fileID: 2096150750749597073}
   firePoint: {fileID: 3056977955492131370}
@@ -390,7 +399,7 @@ MonoBehaviour:
   maxDistnace: 20
   launchToPoint: 1
   launchType: 1
-  launchSpeed: 3
+  launchSpeed: 1
   autoConfigureDistance: 0
   targetDistance: 3
   targetFrequncy: 1
@@ -410,7 +419,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3056977955492131370
 Transform:
@@ -442,7 +451,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8359126620015848316
 Transform:
@@ -473,7 +482,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2096150750749597073
 Transform:
@@ -483,7 +492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5627155598963134351}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.02, y: -1.29, z: 0}
+  m_LocalPosition: {x: 4.32, y: -1.29, z: 0}
   m_LocalScale: {x: 1.1873437, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -491,6 +500,112 @@ Transform:
   m_Father: {fileID: 6243402124348937937}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7356416159390447407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4957268030884331222}
+  - component: {fileID: 4244181876436092114}
+  - component: {fileID: 704483911132147586}
+  - component: {fileID: 8145689428373745351}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4957268030884331222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356416159390447407}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.46, y: 13.533332, z: -9}
+  m_LocalScale: {x: 3.333333, y: 3.333333, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6243402124348937937}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4244181876436092114
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356416159390447407}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.03577783, g: 0.03653927, b: 0.03773582, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 6.6151056
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &704483911132147586
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356416159390447407}
+  m_Enabled: 1
+--- !u!114 &8145689428373745351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356416159390447407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abebb8f13a660ee44a5b9ed9e87aadc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 9079489823384540240}
 --- !u!1 &7562336175045115581
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,7 +620,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1796059395757140781
 Transform:
@@ -545,7 +660,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6243402124348937937
 Transform:
@@ -556,14 +671,15 @@ Transform:
   m_GameObject: {fileID: 9079489823384540240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.28, y: -2.34, z: -1}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.13, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1796059395757140781}
   - {fileID: 8359126620015848316}
   - {fileID: 2096150750749597073}
+  - {fileID: 4957268030884331222}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6888432539691539342
 SpriteRenderer:
@@ -605,8 +721,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
-  m_Sprite: {fileID: 1994065896, guid: 297d600faa9ae4a4ea1bf260042ba23b, type: 3}
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 1304681211, guid: b06158ff2b2639148978ae82e12ca668, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -629,8 +745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3223fbe7670024d9f912154eeb6131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 600
-  m_CrouchSpeed: 0.36
+  m_JumpForce: 400
+  m_CrouchSpeed: 0.463
   m_MovementSmoothing: 0.05
   m_AirControl: 1
   m_WhatIsGround:
@@ -641,10 +757,34 @@ MonoBehaviour:
   m_CrouchDisableCollider: {fileID: 5899476344977568341}
   OnLandEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1744509021809325868}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnLanding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCrouchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1744509021809325868}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnCrouching
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!50 &195609356717610484
 Rigidbody2D:
   serializedVersion: 4
@@ -661,7 +801,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -681,7 +821,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 9079489823384540240}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -708,14 +848,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.0649467, y: 9.92}
+    oldSize: {x: 8.875416, y: 17.275002}
     newSize: {x: 5.0649467, y: 9.92}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.0649457, y: 6.1053324}
+  m_Size: {x: 5.0649457, y: 5.116819}
   m_EdgeRadius: 0
 --- !u!58 &870891678173526439
 CircleCollider2D:
@@ -726,7 +866,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 9079489823384540240}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -806,7 +946,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 6.7017913
+  m_Distance: 7.471946
   m_DampingRatio: 1
   m_Frequency: 1
 --- !u!58 &8375348080361540222
