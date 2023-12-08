@@ -8887,7 +8887,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1167544980}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -13063,7 +13063,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1706845398}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -16836,8 +16836,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 195609356717610484, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_Mass
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 195609356717610484, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c7abc90f53ab85241bf4d1e0b0724c41, type: 2}
     - target: {fileID: 195609356717610484, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_Simulated
       value: 1
@@ -16881,6 +16885,10 @@ PrefabInstance:
     - target: {fileID: 5627155598963134351, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899476344977568341, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Size.y
+      value: 5.116819
       objectReference: {fileID: 0}
     - target: {fileID: 5899476344977568341, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_Enabled
@@ -16929,6 +16937,10 @@ PrefabInstance:
     - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257044335967330439, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_JumpForce
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6888432539691539342, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_SortingOrder
