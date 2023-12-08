@@ -17030,6 +17030,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 4.32
       objectReference: {fileID: 0}
+    - target: {fileID: 3426424663938842734, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Distance
+      value: 7.471946
+      objectReference: {fileID: 0}
     - target: {fileID: 3429026629093865457, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -17062,17 +17066,33 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5899476344977568341, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 8.875416
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899476344977568341, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 17.275002
+      objectReference: {fileID: 0}
     - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.28
+      value: -6.9297
       objectReference: {fileID: 0}
     - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.34
+      value: -2.7945
       objectReference: {fileID: 0}
     - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17110,6 +17130,10 @@ PrefabInstance:
       propertyPath: m_JumpForce
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 6888432539691539342, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1304681211, guid: b06158ff2b2639148978ae82e12ca668, type: 3}
     - target: {fileID: 6888432539691539342, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_SortingOrder
       value: 10
