@@ -32286,6 +32286,10 @@ PrefabInstance:
       propertyPath: m_CrouchSpeed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8774011160284159622, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
+      propertyPath: targetFrequncy
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 9079489823384540240, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_Name
       value: Player
