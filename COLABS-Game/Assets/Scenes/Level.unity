@@ -32506,7 +32506,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c15ef0d771b715f4190451551ad8f495, type: 2}
     - target: {fileID: 3426424663938842734, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_Distance
-      value: 81.92299
+      value: 81.25006
       objectReference: {fileID: 0}
     - target: {fileID: 4244181876436092114, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_Depth
