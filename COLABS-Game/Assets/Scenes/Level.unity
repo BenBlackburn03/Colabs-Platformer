@@ -447,7 +447,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: fdb7bee497d09674b9b5f77932cd0e61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.07058824}
   m_FlipX: 0
@@ -10850,7 +10850,7 @@ MonoBehaviour:
   maxX: 325
   groundY: 71.5
   jumpHeight: 5
-  jumpFrequency: 1
+  jumpFrequency: 2
   moveSpeed: 5
 --- !u!1 &628625586
 GameObject:
@@ -16648,7 +16648,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: fdb7bee497d09674b9b5f77932cd0e61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.07058824}
   m_FlipX: 0
@@ -27205,7 +27205,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: fdb7bee497d09674b9b5f77932cd0e61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.07058824}
   m_FlipX: 0
@@ -34393,7 +34393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46
+      value: 322.65
       objectReference: {fileID: 0}
     - target: {fileID: 6243402124348937937, guid: 88cbd2154cfc9bd4680424e1bdca4346, type: 3}
       propertyPath: m_LocalPosition.y

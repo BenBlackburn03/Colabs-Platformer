@@ -8,7 +8,7 @@ public class RandomMovementWithJump : MonoBehaviour
     public float maxX = 5f;
     public float groundY = 2f; // The Y position to stay on
     public float jumpHeight = 2f;
-    public float jumpFrequency = 1f;
+    public float jumpFrequency = 2f; // Adjusted for more frequent jumps
     public float moveSpeed = 5f;
 
     private Vector2 targetPosition;
@@ -42,9 +42,9 @@ public class RandomMovementWithJump : MonoBehaviour
         // Check if the enemy has reached the target position
         if (Vector2.Distance(transform.position, targetPosition) < 0.01f)
         {
-            // Set a new random target position and enter the grounded state
+            // Set a new random target position and exit the grounded state
             SetRandomTargetPosition();
-            isGrounded = true;
+            isGrounded = false;
         }
     }
 
@@ -58,9 +58,6 @@ public class RandomMovementWithJump : MonoBehaviour
 
         // Reset the jump timer
         jumpTimer = 0f;
-
-        // Exit the grounded state
-        isGrounded = false;
     }
 
     void Jump()
@@ -80,6 +77,5 @@ public class RandomMovementWithJump : MonoBehaviour
             // Enter the grounded state
             isGrounded = true;
         }
-       
     }
 }
