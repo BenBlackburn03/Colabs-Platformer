@@ -13,7 +13,6 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
- 
 
     // Update is called once per frame
     void Update()
@@ -37,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         {
             crouch = false;
         }
- 
+
     }
 
     public void OnLanding()
